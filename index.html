@@ -217,6 +217,12 @@
                 scrollTop: $($link).offset().top - 80
             }, 800);
         });
+        $('#nav + ul a').click(function(e) {
+            e.preventDefault();
+            $parent = $(this).parent('li');
+            $parent.siblings().removeClass('nav__item--current').addClass('nav__item');
+            $parent.addClass('nav__item--current').removeClass('nav__item');
+        });
         </script>
     </body>
 </html>
