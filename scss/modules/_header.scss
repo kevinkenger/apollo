@@ -1,0 +1,20 @@
+header {
+    width: 100%;
+    padding-top: 275px;
+    height: 700px;
+    background: url('../img/apollo-main.jpg') bottom center;
+    background-size: cover;
+    text-align: left;
+    h1 {
+        font-family: $font-family--primary;
+        font-weight: $font-weight--thin;
+        font-size: em(56px);
+        color: $white;
+        margin: 0 0 -15px;
+    }
+    [class^="btn--"] {
+        &:hover {
+            opacity: initial;
+        }
+    }
+}

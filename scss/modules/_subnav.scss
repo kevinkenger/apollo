@@ -1,0 +1,19 @@
+.sub-nav {
+    width: 100%;
+    height: 100px;
+    background:  #001E1C;
+    text-align: center;
+    padding-top: em(40px);
+    margin-bottom: em(100px);
+    box-shadow: 0px 5px 7px palette(grey);
+    p {
+        font-size: 1.5em;
+        color: $white;
+        font-weight: $font-weight--thin;
+        a {
+            color: $white;
+            font-weight: $font-weight--medium;
+            background-position: 0 1.1em;
+        }
+    }
+}
